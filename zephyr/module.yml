@@ -1,0 +1,6 @@
+name: micro-xrce-dds-client
+
+build:
+  cmake: .
+  cmake-ext: True
+  kconfig-ext: True
