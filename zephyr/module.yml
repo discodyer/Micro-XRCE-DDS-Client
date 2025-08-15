@@ -2,5 +2,6 @@ name: micro-xrce-dds-client
 
 build:
   cmake: .
-  cmake-ext: True
-  kconfig-ext: True
+  kconfig: zephyr/Kconfig
+  depends:
+    - micro-cdr
